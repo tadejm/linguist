@@ -4,6 +4,11 @@ Linguist is a command line tool which returns most used programming language for
 
 It's been written as a code test assignment for a client.
 
+## Goals ##
+
+  - keep the tool light and not over-engineer it from the very start,
+  - keep dependencies to as little as none.
+
 ## Dependencies ##
 
   - Ruby 2.0
