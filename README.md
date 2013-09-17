@@ -8,6 +8,7 @@ It's been written as a code test assignment for a client.
 
   - keep the tool light and not over-engineer it from the very start,
   - keep dependencies to as little as none.
+  - meet 5 lines of code per method rule.
 
 ## Dependencies ##
 
