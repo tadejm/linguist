@@ -1,4 +1,4 @@
 require_relative "github/user"
-require_relative "github/fetcher"
+require_relative "fetcher"
 require_relative "github/repository"
-require_relative "github/analyser"
+require_relative "analyser"

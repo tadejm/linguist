@@ -1,5 +1,3 @@
-require_relative 'fetcher'
-
 module Github
   class User
     attr_reader :username, :language
