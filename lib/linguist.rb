@@ -1,4 +1,3 @@
-require_relative "github/user"
-require_relative "fetcher"
-require_relative "github/repository"
-require_relative "analyser"
+require_relative "linguist/user"
+require_relative "linguist/fetcher"
+require_relative "linguist/analyser"

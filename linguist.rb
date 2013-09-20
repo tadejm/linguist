@@ -1,8 +1,6 @@
 #! /usr/bin/env ruby
 
 require "optparse"
-require "json"
-require "net/http"
 
 require_relative "lib/linguist"
 
@@ -24,4 +22,4 @@ end.parse!
 abort "Missing argument: USERNAME" if options[:username].nil?
 
 
-puts "#{Github::User.new(options[:username])}"
+puts "#{Linguist::User.new(options[:username])}"

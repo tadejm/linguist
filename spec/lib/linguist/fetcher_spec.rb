@@ -1,6 +1,6 @@
 require "spec_helper"
 
-module Github
+module Linguist
   describe Fetcher do
     let(:username) { "tadejm" }
     let(:repo)     { Repository.new lang_name }

@@ -1,6 +1,6 @@
 require "spec_helper"
 
-module Github
+module Linguist
   describe User do
     let(:username) { "tadejm" }
     let(:user) { User.new username }

@@ -1,4 +1,4 @@
-module Github
+module Linguist
   class User
     attr_reader :username, :language
 
@@ -18,7 +18,8 @@ module Github
     private
 
     def favourite_language
-      Analyser.new(username).favourite_language
+      fetcher = Fetcher.new(username)
+      Analyser.new(fetcher).favourite_language
     end
   end
 end
